@@ -8,8 +8,8 @@
     <div class="text-center">
         <button class="userCreate bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-xl mt-4 text-white font-bold">Create</button>
     </div>
-    <div class="relative overflow-x-auto mt-4">
-        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+    <div class="relative overflow-x-auto mt-4 flex justify-center">
+        <table class="text-sm text-center text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
                     <th scope="col" class="px-6 py-3">ID</th>

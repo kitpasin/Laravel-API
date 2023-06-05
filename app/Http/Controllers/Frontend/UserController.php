@@ -17,9 +17,4 @@ class UserController extends Controller
             "users" => $users
         ]);
     }
-
-    public function deleteUser($id)
-    {
-        $user = User::find($id);
-    }
 }
