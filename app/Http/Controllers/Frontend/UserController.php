@@ -13,7 +13,7 @@ class UserController extends Controller
     {
         $users = User::all();
 
-        return view("welcome", [
+        return view("pages/home/home", [
             "users" => $users
         ]);
     }
